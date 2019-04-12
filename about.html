@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	<link rel="stylesheet" type="text/css" href="css/style5.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center"><span style="font-size:30px">
+  <h2>Facts about me</h2>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>BACKGROUND</b></h1>
+      <p><span style="font-size:36px"></span>Allt startade med att jag gjorde illa mitt knä... Min passion var fotboll men nu var det inte möjligt att spela fotboll längre. Såg en youtube video om calisthenics vilket inspererade mig, vilket blev min nya passion. Under 3 år nu har jag tränat stenhård för att utveckla min träning. Nu finns jag här för er.En snabb bakgrunds historia om mig. Jag föddes i Sverige, Stockholm. Bor med mina föräldrar och min broder, vi är faktiskt tvillingar. Så ser du någon som liknar mig kan det hända att det inte är jag utan min tvillingbror.</p>
+      <button class="button">Read more</button>
+    </div>
+    <div class="column-33">
+        <img src="Images/2.jpeg" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="Images/8.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>My company</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Quick facts</b></h1>
+      <p style="color:black;><span style="font-size:24px">Allt började i hemmet. En dröm om att skapa öppna ett calisthenics gym var vad jag drömde om på nätterna. Under en lång period under hård träning har jag fått resultat. Med hjälp av plattformen instagram fick jag möjligheten att visa andra vad jag gör. Fick en stor publik som gillade träningen. Så då fanns det ingen återvändå utan att drömmen om gymmet skulle bli till verklighet.</p>
+      <button class="button" style="background-color:red">Read More</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
